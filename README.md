@@ -1,7 +1,4 @@
-# remove-wp-branding v1.0.8
-## Remove WP Branding - WordPress Plugin
-
-## Remove WP Branding ===<br>
+# Remove WP Branding v1.0.8 - WordPress Plugin
 Contributors: workshopmg, michaelgreeby, jeremygradisher<br>
 Tags: remove branding, custom branding, change login logo, add dashboard widget<br>
 Donate link: http://workshop-mg.com/<br>
@@ -13,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Replace the WP branding on the login page and admin dashboard. Replace logos, links and text with your own, add two new widgets within the dashboard.
 
-## Description ==
+## Description
 White label, replace and Remove the WordPress branding from the login page and the admin dashboard. Replace existing logos and text with your own. You may also add two new widgets within the dashboard.
 
 # Remove WordPress Branding:
@@ -24,13 +21,13 @@ White label, replace and Remove the WordPress branding from the login page and t
 
 This plugin was created by work.shop - http://workshop-mg.com - From great idea to grand opening.
 
-## Installation ==
+## Installation
 1. Add plugin zip file as you would any other plugin.
 2. Activate the plugin through the \"Plugins\" menu in WordPress.
 3. Select the options and add content as needed. /wp-admin/plugins.php?page=remove-wp-branding
 4. If you would not like to use a feature, simply leave it blank and no changes will be made.
 
-## Frequently Asked Questions ==
+## Frequently Asked Questions
 = What is the goal of this plugin? =
 Our plugin Remove WordPress Branding is meant to give you a simple way to remove the natural blog like branding in a standard WP install, and give you the ability to brand your login page and dashboard for your customers/clients.
 
@@ -41,12 +38,12 @@ No. There are checkboxes to turn features on and off. For instance, if you would
 When logged into WordPress, in the main left menu the link is within the Plugins dropdown. (as long as you don't have it checked to be hidden.)
 
 
-## Screenshots ==
+## Screenshots
 1. Standard WordPress logo and branding changes. Hide logos and change the linking.
 2. Adjustments for the login page. Change the login logo. The link is auto change to your main domain.
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
-## Changelog ==
+## Changelog
 = 1.0.8 =
 Fixed readme error from last version
 
