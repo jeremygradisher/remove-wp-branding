@@ -1,6 +1,6 @@
 === Remove WP Branding ===
 Contributors: workshopmg, michaelgreeby, jeremygradisher
-Tags: remove branding, custom branding, change login logo, add dashboard widget, white label
+Tags: remove branding, custom branding, change login logo, add dashboard widget, white label, dashboard customization
 Donate link: https://www.paypal.com/paypalme/231webdev
 Requires at least: 3.5
 Tested up to: 6.2.2
@@ -37,13 +37,14 @@ No. There are checkboxes to turn features on and off. For instance, if you would
 = Where is the Remove WP Branding link in the admin menu? =
 When logged into WordPress, in the main left menu the link is within the Plugins dropdown. (as long as you don't have it checked to be hidden.)
 
-
 == Screenshots ==
 1. Standard WordPress logo and branding changes. Hide logos and change the linking.
 2. Adjustments for the login page. Change the login logo. The link is auto change to your main domain.
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
 == Changelog ==
+= 1.1.2 =
+Adjusted tags and information
 = 1.1.1 =
 Changed credits. Tested up to 6.2.2
 = 1.0.9 =
@@ -68,6 +69,9 @@ Added some screenshots
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
 == Upgrade Notice ==
+= 1.1.2 =
+Adjusted tags and information
+
 = 1.1.1 =
 Changed credits. Tested up to 6.2.2
 
