@@ -66,6 +66,7 @@ Added some screenshots
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
 == Upgrade Notice ==
+
 = 1.1.1 =
 Changed credits. Tested up to 6.2.2
 
