@@ -1,12 +1,8 @@
 # === Remove WP Branding ===
-Contributors: jeremygradisher
-Tags: remove branding, custom branding, change login logo, add dashboard widget
+Contributors: jeremygradisher<br>
+Tags: remove branding, custom branding, change login logo, add dashboard widget<br>
 Donate link: https://www.paypal.com/paypalme/231webdev
-Requires at least: 3.5
-Tested up to: 6.2.2
-Stable tag: 6.2.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 Replace the WP branding on the login page and admin dashboard. Replace logos, links and text with your own, add two new widgets within the dashboard.
 
