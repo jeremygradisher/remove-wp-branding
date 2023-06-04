@@ -1,6 +1,6 @@
 === Remove WP Branding ===
-Contributors: jeremygradisher
-Tags: remove branding, custom branding, change login logo, add dashboard widget
+Contributors: workshopmg, michaelgreeby, jeremygradisher
+Tags: remove branding, custom branding, change login logo, add dashboard widget, white label
 Donate link: https://www.paypal.com/paypalme/231webdev
 Requires at least: 3.5
 Tested up to: 6.2.2
@@ -18,6 +18,8 @@ Remove WordPress Branding:
 2. Remove Wordpress Logos from Admin menu and admin bar.
 3. Remove standard dashboards
 4. Add two customizable dashboard widgets
+
+This plugin was created by work.shop - http://workshop-mg.com - From great idea to grand opening.
 
 == Installation ==
 1. Add plugin zip file as you would any other plugin.

@@ -18,7 +18,7 @@ function rwp_initial_install() {
   add_option( 'rwp_eliminate_logo', '1' );
   add_option( 'rwp_eliminate_new_menu', '0' );
   add_option( 'rwp_eliminate_help', '1' );
-  add_option( 'rwp_lower_left_text', 'Plugins by <a href="http://workshop-mg.com">workshop-mg.com</a>' );
+  add_option( 'rwp_lower_left_text', 'Plugins by <a href="https://231webdev.com">231webdev.com</a>' );
   add_option( 'rwp_login_logo', '' );
   add_option( 'rwp_login_logo_height', '' );
   add_option( 'rwp_remove_comp_dashboards', '1' );
@@ -184,7 +184,7 @@ function rwp_dashboard_widget_function_topright( $post, $callback_args ) {
 
 // Function used in the action hook
 function rwp_add_dashboard_widget_topright() {
-  //wp_add_dashboard_widget('dashboard_widget', 'Contact work.shop', 'dashboard_widget_function');
+  //wp_add_dashboard_widget('dashboard_widget', 'Contact 231webdev', 'dashboard_widget_function');
   add_meta_box('rwp_meta_id1', get_option('rwp_right_widget_title'), 'rwp_dashboard_widget_function_topright', 'dashboard', 'side', 'high');
 }
 
@@ -270,7 +270,7 @@ add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'rwp_branding_se
   function rwp_branding_settings_link( $links ) {
      $links[] = '<a href="'. get_admin_url(null, 'plugins.php?page=remove-wp-branding') .'">Settings</a>';
      //$links[] = '<a href="'. get_admin_url(null, 'admin.php?page=remove-wp-branding') .'">Settings</a>';
-     //$links[] = '<a href="http://workshop-mg.com" target="_blank">work.shop</a>';
+     //$links[] = '<a href="https://231webdev.com" target="_blank">231WebDev</a>';
      return $links;
   }
 // Add settings links on plugin page end
@@ -285,8 +285,8 @@ function rwp_branding_tools_page() {
     <div style="clear:both;"></div>
     <div class="wrap">
       <div style="float:right;margin-left:10px;text-align:right;">
-        Plugins by <a href="http://workshop-mg.com/" target="_blank">work.shop</a><br>
-        <span style="font-size:80%;">from great idea to grand opening</span>
+        Plugins by <a href="https://231webdev.com/" target="_blank">231webdev</a><br>
+        <span style="font-size:80%;">...and now we build!</span>
       </div>
     <h2>Remove WP Branding</h2>
     <h3>Rebrand your website for a more professional look and feel.</h3>
