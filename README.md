@@ -38,51 +38,66 @@ When logged into WordPress, in the main left menu the link is within the Plugins
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
 == Changelog ==
-= 1.1.1 =
-Changed credits. Tested up to 6.2.2
-= 1.0.9 =
-Changed tested up to 6.1.1
-= 1.0.8 =
-Fixed readme error from last version
-= 1.0.7 =
-Minor tweaks to readme.txt and a bit of the wording. This was just because WordPress needs it to be updated every so often...
-= 1.0.6 =
-Made selection to hide WordPress logo in upper left corner (admin bar) and the New menu within the admin bar. Used to just remove both.
-= 1.0.5 =
-Made a couple of changes to address the media uploader not working correctly. Also added an option for contextual help menu.
-= 1.0.4 =
-Noticed a Cheatin' uh? error when attempting to upload the image on the settings page. Made a change, back working now.
-= 1.0.3 =
-Attempting to fix icon image not showing correctly in assets (Showing blank on the plugin page). Adjusted some wording in the readme.txt.
-= 1.0.2 =
-Added icon, and header photo. Adjusted some wording in the readme.txt, adjusted the URI link in the main file.
-= 1.0.1 =
-Added some screenshots
-= 1.0 =
+= 1.1.4 =<br>
+Adjusted tags and information - Tested up to 6.6.1<br>
+= 1.1.3 =<br>
+Adjusted tags and information<br>
+= 1.1.2 =<br>
+Adjusted tags and information<br>
+= 1.1.1 =<br>
+Changed credits. Tested up to 6.2.2<br>
+= 1.0.9 =<br>
+Changed tested up to 6.1.1<br>
+= 1.0.8 =<br>
+Fixed readme error from last version<br>
+= 1.0.7 =<br>
+Minor tweaks to readme.txt and a bit of the wording. This was just because WordPress needs it to be updated every so often...<br>
+= 1.0.6 =<br>
+Made selection to hide WordPress logo in upper left corner (admin bar) and the New menu within the admin bar. Used to just remove both.<br>
+= 1.0.5 =<br>
+Made a couple of changes to address the media uploader not working correctly. Also added an option for contextual help menu.<br>
+= 1.0.4 =<br>
+Noticed a Cheatin' uh? error when attempting to upload the image on the settings page. Made a change, back working now.<br>
+= 1.0.3 =<br>
+Attempting to fix icon image not showing correctly in assets (Showing blank on the plugin page). Adjusted some wording in the readme.txt.<br>
+= 1.0.2 =<br>
+Added icon, and header photo. Adjusted some wording in the readme.txt, adjusted the URI link in the main file.<br>
+= 1.0.1 =<br>
+Added some screenshots<br>
+= 1.0 =<br>
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
 == Upgrade Notice ==
 
-= 1.1.1 =
+= 1.1.4 =<br>
+Adjusted tags and information - Tested up to 6.6.1
+
+= 1.1.3 =<br>
+Adjusted tags and information
+
+= 1.1.2 =
+Adjusted tags and information
+
+= 1.1.1 =<br>
 Changed credits. Tested up to 6.2.2
 
-= 1.0.9 =
+= 1.0.9 =<br>
 Changed tested up to 6.1.1
 
-= 1.0.8 =
+= 1.0.8 =<br>
 Fixed readme error from last version
 
-= 1.0.7 =
+= 1.0.7 =<br>
 Minor tweaks. Nothing major. Still update though.
 
-= 1.0.6 =
+= 1.0.6 =<br>
 Added options to remove admin bar WP logo and/or New menu (admin bar)
 
-= 1.0.5 =
+= 1.0.5 =<br>
 Fixed issue with media uploader for login page logo.
 
-= 1.0.4 =
+= 1.0.4 =<br>
 Upload image had stopped working somewhere around WordPress 4.2 - This update addessed that issue.
 
-= 1.0.1 =
+= 1.0.1 =<br>
 This version fixes a security related bug. Upgrade immediately.

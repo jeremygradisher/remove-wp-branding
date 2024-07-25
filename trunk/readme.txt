@@ -3,8 +3,8 @@ Contributors: workshopmg, michaelgreeby, jeremygradisher
 Tags: remove branding, custom branding, change login logo, add dashboard widget, white label, dashboard customization
 Donate link: https://www.paypal.com/paypalme/231webdev
 Requires at least: 3.5
-Tested up to: 6.2.2
-Stable tag: 6.2.2
+Tested up to: 6.6.1
+Stable tag: 6.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ When logged into WordPress, in the main left menu the link is within the Plugins
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
 == Changelog ==
+= 1.1.4 =
+Adjusted tags and information - Tested up to 6.6.1
+= 1.1.3 =
+Adjusted tags and information
 = 1.1.2 =
 Adjusted tags and information
 = 1.1.1 =
@@ -69,6 +73,12 @@ Added some screenshots
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
 == Upgrade Notice ==
+= 1.1.4 =
+Adjusted tags and information - Tested up to 6.6.1
+
+= 1.1.3 =
+Adjusted tags and information
+
 = 1.1.2 =
 Adjusted tags and information
 
