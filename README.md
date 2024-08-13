@@ -37,7 +37,15 @@ When logged into WordPress, in the main left menu the link is within the Plugins
 2. Adjustments for the login page. Change the login logo. The link is auto change to your main domain.
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
-== Changelog ==
+== Changelog ==<br>
+= 1.1.8 =<br>
+Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3. Also fixed tagging error.<br>
+= 1.1.7 =<br>
+Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3<br>
+= 1.1.6 =<br>
+Getting tags right - nothing with the plugin changed<br>
+= 1.1.5 =<br>
+Fixing an error - The Stable tag field is missing or invalid<br>
 = 1.1.4 =<br>
 Adjusted tags and information - Tested up to 6.6.1<br>
 = 1.1.3 =<br>
@@ -67,7 +75,21 @@ Added some screenshots<br>
 = 1.0 =<br>
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
-== Upgrade Notice ==
+== Upgrade Notice ==<br>
+= 1.1.8 =<br>
+Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3. Also fixed tagging error.
+
+= 1.1.7 =<br>
+Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3
+
+= 1.1.6 =<br>
+Getting tags right - nothing with the plugin changed
+
+= 1.1.5 =<br>
+Fixing an error - The Stable tag field is missing or invalid
+
+= 1.1.4 =<br>
+Adjusted tags and information - Tested up to 6.6.1
 
 = 1.1.4 =<br>
 Adjusted tags and information - Tested up to 6.6.1
