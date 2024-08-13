@@ -3,7 +3,7 @@
 Plugin Name: Remove WP Branding
 Plugin URI: https://231webdev.com/remove-wp-branding-wordpress-plugin/
 Description: Replace and Remove the WordPress branding from the login page and the admin dashboard. Replace existing logos and text with your own. You may also add two new widgets within the dashboard.
-Version: 1.1.8
+Version: 1.1.6
 Author: 231WebDev
 Author URI: https://231webdev.com
 License: GPLv2 or later
@@ -199,22 +199,19 @@ add_action('wp_dashboard_setup', 'rwp_add_dashboard_widget_topright' );
 //This is the main code that changes the text - It uses a filter and a string replace
 //Further down I added a function called rwp_howdy_text that collects and saves the custom text
 //Added if statement if $rwp_howdy_choice is blank add Howdy,
-//Updated code to address the Warning about Reading a Property on Null
 function custom_howdy( $wp_admin_bar ) {
-  $rwp_howdy_choice = get_option('rwp_howdy_text');
-  if ($rwp_howdy_choice == '') {
-      $rwp_howdy_answer = 'Howdy, ';
-  } else {
-      $rwp_howdy_answer = get_option('rwp_howdy_text');
-  }
-
-  $my_account = $wp_admin_bar->get_node('my-account');
-  if ($my_account) {  // Check if $my_account is not null
-      $newtitle = str_replace('Howdy,', $rwp_howdy_answer, $my_account->title);
-      $wp_admin_bar->add_node(array('id' => 'my-account', 'title' => $newtitle));
-  }
-}
-add_filter('admin_bar_menu', 'custom_howdy', 25);
+ $rwp_howdy_choice = get_option('rwp_howdy_text');
+ if ($rwp_howdy_choice == '') {
+  $rwp_howdy_answer = 'Howdy, ';
+ } else {
+  $rwp_howdy_answer = get_option('rwp_howdy_text');
+ }
+ $my_account=$wp_admin_bar->get_node('my-account');
+ //$newtitle = str_replace( 'Howdy,', get_option('rwp_howdy_text'), $my_account->title );
+ $newtitle = str_replace( 'Howdy,', $rwp_howdy_answer, $my_account->title );
+ $wp_admin_bar->add_node( array('id' => 'my-account','title' => $newtitle) );
+ }
+ add_filter( 'admin_bar_menu', 'custom_howdy',25 );
 
 
 // Hook for adding admin menu page

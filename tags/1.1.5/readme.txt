@@ -4,7 +4,7 @@ Tags: remove branding, custom branding, change login logo, add dashboard widget,
 Donate link: https://www.paypal.com/paypalme/231webdev
 Requires at least: 3.5
 Tested up to: 6.6.1
-Stable tag: 1.1.8
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,12 +43,6 @@ When logged into WordPress, in the main left menu the link is within the Plugins
 3. Adjustments for the dashboard widgets. Add your own if you would like.
 
 == Changelog ==
-= 1.1.8 =
-Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3. Also fixed tagging error.
-= 1.1.7 =
-Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3
-= 1.1.6 =
-Getting tags right - nothing with the plugin changed
 = 1.1.5 =
 Fixing an error - The Stable tag field is missing or invalid
 = 1.1.4 =
@@ -81,15 +75,6 @@ Added some screenshots
 * Initial release. We will be upgrading periodically for security and functionality improvements.
 
 == Upgrade Notice ==
-= 1.1.8 =
-Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3. Also fixed tagging error.
-
-= 1.1.7 =
-Fixing error Attempt to read property "title" on null on line 211 and Deprecated: str_replace(): Passing null to parameter #3
-
-= 1.1.6 =
-Getting tags right - nothing with the plugin changed
-
 = 1.1.5 =
 Fixing an error - The Stable tag field is missing or invalid
 

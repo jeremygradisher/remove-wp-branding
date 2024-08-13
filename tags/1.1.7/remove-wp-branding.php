@@ -3,7 +3,7 @@
 Plugin Name: Remove WP Branding
 Plugin URI: https://231webdev.com/remove-wp-branding-wordpress-plugin/
 Description: Replace and Remove the WordPress branding from the login page and the admin dashboard. Replace existing logos and text with your own. You may also add two new widgets within the dashboard.
-Version: 1.1.8
+Version: 1.1.6
 Author: 231WebDev
 Author URI: https://231webdev.com
 License: GPLv2 or later
